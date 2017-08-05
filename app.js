@@ -39,7 +39,7 @@ myPicture.on('ready', function(event) {
 });
 myPicture.on('click', function(event) {
   console.log('register all click events');
-  if (event.id == 'creating-hotspot-Top') {
+  if (event.id == 'creating-hotspot-Center') {
     alert('You clicked my center!');
   }
   if (event.id == 'creating-hotspot-Top') {
