@@ -6,31 +6,31 @@ var myPicture = vRViewPlayer('#pretty-cat', {
 });
 window.addEventListener('load', myPicture);
 myPicture.on('ready', function(event) {
-  myPicture.addHotspot('creating-hotspot-1', {
+  myPicture.addHotspot('creating-hotspot-Center', {
     pitch: 0,
     yaw: 0,
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-2', {
-    pitch: 50,
+  myPicture.addHotspot('creating-hotspot-Top', {
+    pitch: 15,
     yaw: 0,
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-3', {
+  myPicture.addHotspot('creating-hotspot-Bottom', {
     pitch: -25,
     yaw: 0,
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-4', {
+  myPicture.addHotspot('creating-hotspot-Right', {
     pitch: 0,
     yaw: 25,
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-5', {
+  myPicture.addHotspot('creating-hotspot-Left', {
     pitch: 0,
     yaw: -25,
     radius: 0.10,
@@ -40,9 +40,18 @@ myPicture.on('ready', function(event) {
 myPicture.on('click', function(event) {
   console.log('register all click events');
   if (event.id == 'creating-hotspot-1') {
-    alert('i bEen cLIKed!');
+    alert('You clicked my center!');
   }
-  if (event.id == 'creating-hotspot-2') {
-    alert('i BEEN cLIKed!');
+  if (event.id == 'creating-hotspot-Top') {
+    alert('You clicked my top!');
+  }
+  if (event.id == 'creating-hotspot-Bottom') {
+    alert('You clicked my bottom!');
+  }
+  if (event.id == 'creating-hotspot-Right') {
+    alert('You clicked my right!');
+  }
+  if (event.id == 'creating-hotspot-Left') {
+    alert('You clicked my left!');
   }
 });
