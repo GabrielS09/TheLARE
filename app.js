@@ -4,3 +4,4 @@ var myPicture = vRViewPlayer('#pretty-cat', {
   image: 'cat.jpg',
   is_stereo: false
 });
+window.addEventListener('load', myPicture);
