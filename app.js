@@ -12,6 +12,34 @@ myPicture.on('ready', function(event) {
     radius: 0.10,
     distance: 1
   });
+  myPicture.addHotspot('creating-hotspot-1', {
+    pitch: 25,
+    yaw: 0,
+    radius: 0.10,
+    distance: 1
+  });
+  myPicture.addHotspot('creating-hotspot-1', {
+    pitch: -25,
+    yaw: 0,
+    radius: 0.10,
+    distance: 1
+  });
+  myPicture.addHotspot('creating-hotspot-1', {
+    pitch: 0,
+    yaw: 25,
+    radius: 0.10,
+    distance: 1
+  });
+  myPicture.addHotspot('creating-hotspot-1', {
+    pitch: 0,
+    yaw: -25,
+    radius: 0.10,
+    distance: 1
+  });
+
+
+
+
 });
 myPicture.on('click', function(event) {
   console.log('register all click events');
