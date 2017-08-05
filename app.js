@@ -13,7 +13,7 @@ myPicture.on('ready', function(event) {
     distance: 1
   });
   myPicture.addHotspot('creating-hotspot-Top', {
-    pitch: 15,
+    pitch: 25,
     yaw: 0,
     radius: 0.10,
     distance: 1
@@ -24,13 +24,13 @@ myPicture.on('ready', function(event) {
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-Right', {
+  myPicture.addHotspot('creating-hotspot-Left', {
     pitch: 0,
     yaw: 25,
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-Left', {
+  myPicture.addHotspot('creating-hotspot-Right', {
     pitch: 0,
     yaw: -25,
     radius: 0.10,
@@ -48,10 +48,10 @@ myPicture.on('click', function(event) {
   if (event.id == 'creating-hotspot-Bottom') {
     alert('You clicked my bottom!');
   }
-  if (event.id == 'creating-hotspot-Right') {
-    alert('You clicked my right!');
-  }
   if (event.id == 'creating-hotspot-Left') {
     alert('You clicked my left!');
+  }
+  if (event.id == 'creating-hotspot-Right') {
+    alert('You clicked my right!');
   }
 });
