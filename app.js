@@ -12,25 +12,25 @@ myPicture.on('ready', function(event) {
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-1', {
+  myPicture.addHotspot('creating-hotspot-2', {
     pitch: 25,
     yaw: 0,
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-1', {
+  myPicture.addHotspot('creating-hotspot-3', {
     pitch: -25,
     yaw: 0,
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-1', {
+  myPicture.addHotspot('creating-hotspot-4', {
     pitch: 0,
     yaw: 25,
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-1', {
+  myPicture.addHotspot('creating-hotspot-5', {
     pitch: 0,
     yaw: -25,
     radius: 0.10,
