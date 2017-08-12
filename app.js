@@ -1,4 +1,4 @@
-console.log('where is this popping up?');
+ console.log('where is this popping up?');
 
 var myPicture = vRViewPlayer('#pretty-cat', {
   image: 'IMG_0560.JPG',
