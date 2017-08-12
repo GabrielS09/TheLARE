@@ -7,7 +7,7 @@ var myPicture = vRViewPlayer('#pretty-cat', {
 window.addEventListener('load', myPicture);
 myPicture.on('ready', function(event) {
   myPicture.addHotspot('creating-hotspot-Living room', {
-    pitch: 7,
+    pitch: -5,
     yaw: 10,
     radius: 0.04,
     distance: 1
@@ -30,9 +30,9 @@ myPicture.on('ready', function(event) {
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-Right', {
+  myPicture.addHotspot('creating-hotspot-Kitchen', {
     pitch: 0,
-    yaw: -25,
+    yaw: -180,
     radius: 0.10,
     distance: 1
   });
@@ -54,7 +54,7 @@ myPicture.on('click', function(event) {
   if (event.id == 'creating-hotspot-Left') {
     alert('You clicked my left!');
   }
-  if (event.id == 'creating-hotspot-Right') {
-    alert('You clicked my right!');
+  if (event.id == 'creating-hotspot-Kitchen') {
+    alert('This is my kitchen! This is where I prepare good food.');
   }
 });
