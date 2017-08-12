@@ -18,9 +18,9 @@ myPicture.on('ready', function(event) {
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-Bottom', {
+  myPicture.addHotspot('creating-hotspot-Computer', {
     pitch: -25,
-    yaw: 0,
+    yaw: 45,
     radius: 0.10,
     distance: 1
   });
