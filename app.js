@@ -32,7 +32,7 @@ myPicture.on('ready', function(event) {
   });
   myPicture.addHotspot('creating-hotspot-Kitchen', {
     pitch: 0,
-    yaw: -180,
+    yaw: -215,
     radius: 0.10,
     distance: 1
   });
