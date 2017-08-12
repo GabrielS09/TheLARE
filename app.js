@@ -9,7 +9,7 @@ myPicture.on('ready', function(event) {
   myPicture.addHotspot('creating-hotspot-Living room', {
     pitch: 7,
     yaw: 10,
-    radius: 0.40,
+    radius: 0.04,
     distance: 1
   });
   myPicture.addHotspot('creating-hotspot-Top', {
