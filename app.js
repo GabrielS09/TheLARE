@@ -1,7 +1,7 @@
 console.log('where is this popping up?');
 
 var myPicture = vRViewPlayer('#pretty-cat', {
-  image: 'cat.jpg',
+  image: 'IMG_0560.JPG',
   is_stereo: false
 });
 window.addEventListener('load', myPicture);
