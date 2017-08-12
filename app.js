@@ -6,10 +6,10 @@ var myPicture = vRViewPlayer('#pretty-cat', {
 });
 window.addEventListener('load', myPicture);
 myPicture.on('ready', function(event) {
-  myPicture.addHotspot('creating-hotspot-Center', {
-    pitch: 0,
-    yaw: 0,
-    radius: 0.10,
+  myPicture.addHotspot('creating-hotspot-Living room', {
+    pitch: 7,
+    yaw: 10,
+    radius: 0.4,
     distance: 1
   });
   myPicture.addHotspot('creating-hotspot-Top', {
