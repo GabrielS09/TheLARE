@@ -45,9 +45,13 @@ myPicture.on('click', function(event) {
   if (event.id == 'creating-hotspot-Top') {
     alert('You clicked my top!');
   }
-  if (event.id == 'creating-hotspot-Bottom') {
-    alert('You clicked my bottom!');
+  if (event.id == 'creating-hotspot-Computer') {
+    myPicture.setContent({
+     image: 'IMG_0559.JPG',
+     is_stereo: false
+    });
   }
+});
   if (event.id == 'creating-hotspot-Left') {
     alert('You clicked my left!');
   }
