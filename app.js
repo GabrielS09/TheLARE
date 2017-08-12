@@ -50,7 +50,7 @@ myPicture.on('click', function(event) {
      image: 'IMG_0559.JPG',
      is_stereo: false
     });
-});
+};
   if (event.id == 'creating-hotspot-Left') {
     alert('You clicked my left!');
   }
