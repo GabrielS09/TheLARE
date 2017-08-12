@@ -15,7 +15,7 @@ myPicture.on('ready', function(event) {
   myPicture.addHotspot('creating-hotspot-Door', {
     pitch: 0,
     yaw: -180,
-    radius: 0.10,
+    radius: 0.20,
     distance: 1
   });
   myPicture.addHotspot('creating-hotspot-Computer', {
@@ -43,7 +43,7 @@ myPicture.on('click', function(event) {
     alert('Welcome to my living room! This is where I watch TV.');
   }
   if (event.id == 'creating-hotspot-Door') {
-    alert('You clicked my top!');
+    alert('This is the doorway that leads outside my house.');
   }
   if (event.id == 'creating-hotspot-Computer') {
     myPicture.setContent({
