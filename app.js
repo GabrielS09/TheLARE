@@ -7,8 +7,8 @@ var myPicture = vRViewPlayer('#pretty-cat', {
 window.addEventListener('load', myPicture);
 myPicture.on('ready', function(event) {
   myPicture.addHotspot('creating-hotspot-Living room', {
-    pitch: -5,
-    yaw: 10,
+    pitch: -10,
+    yaw: -5,
     radius: 0.04,
     distance: 1
   });
