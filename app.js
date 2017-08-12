@@ -12,9 +12,9 @@ myPicture.on('ready', function(event) {
     radius: 0.04,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-Top', {
-    pitch: 25,
-    yaw: 0,
+  myPicture.addHotspot('creating-hotspot-Door', {
+    pitch: 0,
+    yaw: -180,
     radius: 0.10,
     distance: 1
   });
@@ -24,10 +24,10 @@ myPicture.on('ready', function(event) {
     radius: 0.10,
     distance: 1
   });
-  myPicture.addHotspot('creating-hotspot-Left', {
+  myPicture.addHotspot('creating-hotspot-Hall', {
     pitch: 0,
     yaw: 25,
-    radius: 0.10,
+    radius: 0.05,
     distance: 1
   });
   myPicture.addHotspot('creating-hotspot-Kitchen', {
@@ -42,7 +42,7 @@ myPicture.on('click', function(event) {
   if (event.id == 'creating-hotspot-Living room') {
     alert('Welcome to my living room! This is where I watch TV.');
   }
-  if (event.id == 'creating-hotspot-Top') {
+  if (event.id == 'creating-hotspot-Door') {
     alert('You clicked my top!');
   }
   if (event.id == 'creating-hotspot-Computer') {
@@ -51,8 +51,8 @@ myPicture.on('click', function(event) {
      is_stereo: false
     });
 };
-  if (event.id == 'creating-hotspot-Left') {
-    alert('You clicked my left!');
+  if (event.id == 'creating-hotspot-Hall') {
+    alert('This is the doorway to my bedroom!');
   }
   if (event.id == 'creating-hotspot-Kitchen') {
     alert('This is my kitchen! This is where I prepare good food.');
