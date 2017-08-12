@@ -20,7 +20,7 @@ myPicture.on('ready', function(event) {
   });
   myPicture.addHotspot('creating-hotspot-Computer', {
     pitch: -25,
-    yaw: 45,
+    yaw: -45,
     radius: 0.10,
     distance: 1
   });
